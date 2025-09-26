@@ -20,14 +20,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             CameraXTaskTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                     FrontCameraScreen(modifier = Modifier.fillMaxSize())
                 }
             }
-
-            FrontCameraScreen(modifier = Modifier.fillMaxSize())
         }
     }
 }
