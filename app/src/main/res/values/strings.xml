@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CameraXTask</string>
+    <string name="title_activity_front_camera_screen">FrontCameraScreen</string>
+</resources>
