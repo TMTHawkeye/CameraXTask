@@ -60,7 +60,7 @@ dependencies {
 
 
 
-    implementation(platform("androidx.camera:camera-bom:1.3.4"))
+//    implementation(platform("androidx.camera:camera-bom:1.3.4"))
 
     // Core CameraX libraries
     implementation ("androidx.camera:camera-core")
